@@ -1,0 +1,30 @@
+---
+title: "favorite desserts"
+author: "Julien"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Loading the DT package that we will be using to render an interactive table
+```{r message=FALSE, warning=FALSE}
+#Loading Packages
+library(DT)
+```
+
+## Reading the csv file about our favorite desserts:
+```{r, data}
+# Read the data
+desserts <- read.csv("favorite_desserts.csv", stringsAsFactors = FALSE)
+
+# Render the table
+DT::datatable(desserts)
+
+```
