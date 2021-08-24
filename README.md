@@ -5,3 +5,4 @@
 - Jensen: Rhubarb Crisp
 - Phoebe: Pavlova
 - Kate: Guacamole (I like savory!)
+- Sophia: chocolate
