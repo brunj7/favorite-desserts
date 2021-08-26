@@ -7,4 +7,3 @@
 - Kate: Guacamole (I like savory!)
 - Sophia: chocolate
 - Eliott: apple pie
-
