@@ -8,6 +8,3 @@
 - Sophia: chocolate
 - Eliott: apple pie
 
-
-
-
